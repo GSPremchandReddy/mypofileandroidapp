@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/wallp"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="24dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/premchand"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Premchand Reddy"
+            android:layout_toRightOf="@+id/profile"
+            android:textColor="@color/white"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/mailText"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/titleText"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile"
+            android:text="gspcr9898@gmail.com"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile"
+            android:layout_gravity="center"
+            android:layout_below="@+id/mailText"
+            android:text="+91 9494633466"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="14dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="14dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:background="#FFFF"
+            android:textColor="@color/black"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+
+            />
+        <Button
+            android:id="@+id/personalDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal details"
+            android:background="#FFFF"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/whatsapp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/whatsapp"
+            />
+
+        <ImageButton
+            android:id="@+id/fb"
+            android:layout_width="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/facebook"  />
+
+        <ImageButton
+            android:id="@+id/insta"
+            android:layout_width="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/insta"  />
+
+        <ImageButton
+            android:id="@+id/twitter"
+            android:layout_width="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/twitter"  />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
